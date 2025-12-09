@@ -1,7 +1,7 @@
 /**
 * @author Evan Maddicks
 * @version 1.0.0
-* @date 2025-12-1
+* @date 2025-12-8
 * @fileoverview this program will make a shopping cart simulation
 */
 
@@ -34,7 +34,7 @@ if (subtotal > 350) {
 }
 
 // Calculate HST (13%)
-let hst = (subtotal - discount) * 0.13;
+const hst = (subtotal - discount) * 0.13;
 
 // Calculate final total
 const total = subtotal - discount + hst;
